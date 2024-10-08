@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    display: flex;
+    background-image: linear-gradient(to left, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    flex-direction: column;
+    align-items: center;
+}
+.form-box{
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-top: 10px;
+    background: rgba( 255, 255, 255, 0.2 );
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13px );
+    -webkit-backdrop-filter: blur( 13px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+}
+.box-cadastro{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.form-box form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+}
+.form-box #enviar{
+    margin-top: 10px;
+}
+.form-box input{
+    border-radius: 13px;
+}
+.outdoor{
+    border-bottom: 2px solid white;
+}
+.card-funcionario{
+    margin-top: 80px;
+    background: rgba( 255, 255, 255, 0.2 );
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13px );
+    -webkit-backdrop-filter: blur( 13px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+.card-funcionario a{
+    color: rgb(0, 0, 0);
+}
+#agaum{
+    border-bottom: 2px solid white;
+}
